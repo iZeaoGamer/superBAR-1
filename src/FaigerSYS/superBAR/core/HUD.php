@@ -67,7 +67,7 @@ class HUD {
 				}
 				
 				if ($plugins['FactionsPro']) {
-					if (((float) $plugins['FactionsPro']->getDescription()->getVersion()) < 1.5)
+					if (((float) $plugins['FactionsPro']->getDescription()->getVersion()) < 2.0.0)
 						$faction = $plugins['FactionsPro']->getPlayerFaction($name);
 					else
 						$faction = $plugins['FactionsPro']->getSessionFromName($name)->getFactionName();
