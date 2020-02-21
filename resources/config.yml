@@ -33,7 +33,7 @@ hud-format: "§b§lUsername: §c§l%NICK%\n§b§lOnline: §c§l%ONLINE%§6/§c%M
 # \n - new line. WARNING! \n is not the same as /n
 
 #The level of the HUD shift. Set the variable for example at 30.
-hud-shift-level: 0
+hud-shift-level: 30
 #Tip:
 # Positive value (e.g. 30) - to right side
 # Negative value (e.g. -30) - to left side
