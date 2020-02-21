@@ -3,8 +3,8 @@
 ver: 9
 ### Please do not change 'ver' ###
 
-#HUD format. For color use §.
-hud-format: "Hello, %NICK%\nOnline: %ONLINE%/%MAX_ONLINE%"
+#HUD format. For color u
+hud-format: "§b§lUsername: §c§l%NICK%\n§b§lOnline: §c§l%ONLINE%§6/§c%MAX_ONLINE%\n§b§lTPS: §c§l%TPS%§6/§c20”
 #Tip:
 # %NICK% - name of player
 # %MONEY% - count of player's money
@@ -19,7 +19,7 @@ hud-format: "Hello, %NICK%\nOnline: %ONLINE%/%MAX_ONLINE%"
 # %MAX_ONLINE% - max. online
 # %X% / %Y% / %Z% - get X/Y/Z-coordinates of player
 # %IP% - IP of player
-# %PP_GROUP% - PurePerms group of player
+# %PP_GROUP% - PurePerms group of player\n
 #   NEED PurePerms. You can download it from here: https://forums.pocketmine.net/plugins/pureperms.862/
 # %TAG% - player's tag (text above player's head)
 # %LOAD% - load of server (0-100 %)
